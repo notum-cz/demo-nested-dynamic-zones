@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_contents",
+  "info": {
+    "singularName": "sub-content",
+    "pluralName": "sub-contents",
+    "displayName": "Sub Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "comps.component-one",
+        "comps.component-two"
+      ]
+    },
+    "uid": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_comps_component_twos",
+  "info": {
+    "displayName": "componentTwo",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "sub_content": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-content.sub-content"
+    }
+  }
+}

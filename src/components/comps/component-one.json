@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_comps_component_ones",
+  "info": {
+    "displayName": "componentOne",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "sub_content": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-content.sub-content"
+    }
+  }
+}

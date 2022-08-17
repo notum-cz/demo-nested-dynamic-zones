@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_contents",
+  "info": {
+    "singularName": "top-content",
+    "pluralName": "top-contents",
+    "displayName": "Top Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "comps.component-one",
+        "comps.component-two"
+      ]
+    }
+  }
+}
